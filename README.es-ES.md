@@ -60,11 +60,11 @@ correctamente.
 
 ## Contenido
 
-1. **Empezando**
+a. **Empezando**
     - [¿Qué es Python?](src/getting_started/what_is_python.md)
     - [Sintaxis de Python](src/getting_started/python_syntax.md)
     - [Variables](src/getting_started/test_variables.py)
-2. **Operadores**
+b. **Operadores**
     - [Operadores aritméticos](src/operators/test_arithmetic.py) (`+`, `-`, `*`, `/`, `//`, `%`, `**`)
     - [Operadores Bitwise](src/operators/test_bitwise.py) (`&`, `|`, `^`, `>>`, `<<`, `~`)
     - [Operadores de atribución](src/operators/test_assigment.py) (`=`, `+=`, `-=`, `/=`, `//=` etc.)
@@ -72,7 +72,7 @@ correctamente.
     - [Operadores lógicos](src/operators/test_logical.py) (`and`, `or`, `not`)
     - [Operadores de identidad](src/operators/test_identity.py) (`is`, `is not`)
     - [Operadores de asociación](src/operators/test_membership.py) (`in`, `not in`)
-3. **Tipos de datos**
+c. **Tipos de datos**
     - [Números](src/data_types/test_numbers.py) (incluyendo booleans)
     - [Strings](src/data_types/test_strings.py) y sus métodos
     - [Listas](src/data_types/test_lists.py) y sus métodos (incluyendo comprensión de listas)
@@ -80,14 +80,14 @@ correctamente.
     - [Sets](src/data_types/test_sets.py) y sus métodos
     - [Diccionarios](src/data_types/test_dictionaries.py)
     - [Tipo de casting](src/data_types/test_type_casting.py)
-4. **Control de flujo**
+d. **Control de flujo**
     - [La sentencia `if`](src/control_flow/test_if.py)
     - [La sentencia `for`](src/control_flow/test_for.py) (y la función `range()`)
     - [La sentencia `while`](src/control_flow/test_while.py)
     - [La sentencia `try`](src/control_flow/test_try.py)
     - [La sentencia `break`](src/control_flow/test_break.py)
     - [La sentencia `continue`](src/control_flow/test_continue.py)
-5. **Funciones**
+e. **Funciones**
     - [Definición de función](src/functions/test_function_definition.py) (sentencias `def` y `return`)
     - [Ámbito de variables dentro de funciones](src/functions/test_function_scopes.py) (sentencias `global` y `nonlocal`)
     - [Valores de argumento predeterminados](src/functions/test_function_default_arguments.py)
@@ -98,7 +98,7 @@ correctamente.
     - [Strings de documentación](src/functions/test_function_documentation_string.py)
     - [Anotaciones en funciones](src/functions/test_function_annotations.py)
     - [Decoradores de funciones](src/functions/test_function_decorators.py)
-6. **Clases**
+f. **Clases**
     - [Definición de clase](src/classes/test_class_definition.py) (sentencia `class`)
     - [Objetos de clase](src/classes/test_class_objects.py)
     - [Objetos de instancia](src/classes/test_instance_objects.py)
@@ -106,19 +106,19 @@ correctamente.
     - [Variables de clase y de instancia](src/classes/test_class_and_instance_variables.py)
     - [Herencia](src/classes/test_inheritance.py)
     - [Herencia múltiple](src/classes/test_multiple_inheritance.py)
-7. **Módulos**
+g. **Módulos**
     - [Módulos](src/modules/test_modules.py) (sentencia `import`)
     - [Paquetes](src/modules/test_packages.py)
-8. **Errores y excepciones**
+h. **Errores y excepciones**
     - [Controlando excepciones](src/exceptions/test_handle_exceptions.py) (sentencia `try`)
     - [Generando excepciones](src/exceptions/test_raise_exceptions.py) (sentencia `raise`) 
-9. **Archivos**
+i. **Archivos**
     - [Leyendo y escribiendo](src/files/test_file_reading.py) (sentencia `with`)
     - [Métodos de objetos de archivo](src/files/test_file_methods.py)
-10. **Adicionales**
+j. **Adicionales**
     - [La sentencia `pass`](src/additions/test_pass.py)
     - [Generadores](src/additions/test_generators.py) (sentencia `yield`)
-11. **Pequeño tour de las librerías estándar**
+k. **Pequeño tour de las librerías estándar**
     - [Serialización](src/standard_libraries/test_json.py) (librería `json`)
     - [Parámetros en archivos](src/standard_libraries/test_glob.py) (librería `glob`)
     - [Expresiones regulares](src/standard_libraries/test_re.py) (librearía `re`)
